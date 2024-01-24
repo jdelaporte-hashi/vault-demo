@@ -1,5 +1,6 @@
 name: ImageBuilder
 # Run this workflow every time a new commit pushed to your repository
+# Create a Repo Secret, not an Environment Secret
 on: push
 jobs:
   build:
